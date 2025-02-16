@@ -49,6 +49,9 @@
       <hotspot skinid="ht_node" id="Point03" description="" target="-1.1/-0.2/117.4" pan="-147.77" tilt="-4.2" distance="6.5027" title="Espaço MS" url="{node9}"/>
     </hotspots>
     <media>
+      <image hidepinned="0" stretch="0.706" rotx="-2.110" roty="-9.650" fov="13.851" clickmode="0" handcursor="0" rotz="-2.008" id="Element01" popbackmode="0" popoutscaling="100" pan="9.046" height="500" tilt="12.667" width="500">
+        <source url="media/Design_sem_nome__8_-removebg-preview.png"/>
+      </image>
       <lensflare blinding="50.000" color="0xffffff" alpha="80.000" pan="-325.180" type="1" tilt="22.720" id="Lensflare01"/>
     </media>
     <transition zoomspeed="2" blendtime="1" enabled="1" blendcolor="0x000000" zoomoutpause="1" delay="none" softedge="0" zoomafterinfov="140" zoomfov="40" type="crossdissolve" zoomin="0" zoomafteroutfov="40" zoomout="0"/>
