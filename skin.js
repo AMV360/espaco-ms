@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.5/20954
 // Filename: venis-Setas.ggsk
-// Generated 2025-02-16T18:08:46
+// Generated 2025-02-16T19:13:52
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_sounds_splashscreen', 2, false, { ignoreInState: 1  });
@@ -19104,10 +19104,10 @@ me._tt_ht_3d.style.transform=hs+' translate3d(0px,-50px,0px)';
 					((player.getVariableValue('resp_phone') == false))
 				)
 			) {
-				let pdfInterval_9 = setInterval(() => {
+				let pdfInterval_11 = setInterval(() => {
 					if (skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_hs_popup_pdf__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_hs_popup_pdf.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_9);
+						clearInterval(pdfInterval_11);
 					}
 				}, 50);
 			}
@@ -19232,10 +19232,10 @@ me._tt_ht_3d.style.transform=hs+' translate3d(0px,-50px,0px)';
 					((player.getVariableValue('resp_phone') == true))
 				)
 			) {
-				let pdfInterval_10 = setInterval(() => {
+				let pdfInterval_12 = setInterval(() => {
 					if (skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.initialized && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.downloadComplete && skin._pdf_popup_phone__pdf.contentWindow.PDFViewerApplication.pdfViewer._pageViewsReady) {
 						skin._pdf_popup_phone.ggSetCurrentPage(Number(player._(me.hotspot.target)));
-						clearInterval(pdfInterval_10);
+						clearInterval(pdfInterval_12);
 					}
 				}, 50);
 			}
