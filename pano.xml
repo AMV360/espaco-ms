@@ -132,7 +132,6 @@
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot skinid="ht_node" id="Point01" description="" target="-89.7/-2.1/100.0" pan="-300.16" tilt="-8.7" distance="2.33252" title="Espaço MS" url="{node12}"/>
       <hotspot skinid="ht_node" id="Point02" description="" target="-78.7/-0.4/100.0" pan="-55.34" tilt="-6.44" distance="2.23407" title="Espaço MS" url="{node16}"/>
-      <hotspot skinid="ht_node" id="Point03" description="" target="$fwd" pan="396.964" tilt="0" distance="4.98944" title="Espaço MS" url="{node11}"/>
     </hotspots>
     <media>
       <lensflare blinding="50.000" color="0xffffff" alpha="80.000" pan="-136.640" type="1" tilt="0.880" id="Lensflare01"/>
